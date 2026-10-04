@@ -2,6 +2,8 @@
 
 Written 2026-10-04. Covers the chat from "can you teach yourself?" through the injection harness experiments, the voice follow-ups on career direction, and the open questions. Sections are ordered by how actionable they are.
 
+> **Repo note (added later):** this log mentions `chemical_wording`/`chemical_action` variants and their results. That version of the harness no longer exists — `src/injection_harness.py` in this repo only implements `control`, `blunt_command`, `policy_wording`, `policy_action`, and `buried_action`. The main [README](../README.md) and results table reflect only those 5. Treat the chemical-variant mentions below as historical notes, not a claim about the current code.
+
 ## Where things stand
 
 You went from "what is an agent?" to running your own automated prompt-injection experiments against two models. The core skill (design an attack, run it repeatedly, score it, find the flaw in your own scoring, form a sharper hypothesis) is already practiced at toy scale. The biggest gaps are the formal write-up half of the work, scale and systematic coverage, and the hard judgment layer (is an output really dangerous), which is where your chemistry background matters.
