@@ -2,7 +2,7 @@
 
 Written 2026-10-04. Covers the chat from "can you teach yourself?" through the injection harness experiments, the voice follow-ups on career direction, and the open questions. Sections are ordered by how actionable they are.
 
-> **Repo note (added later):** this log mentions `chemical_wording`/`chemical_action` variants and their results. That version of the harness no longer exists — `src/injection_harness.py` in this repo only implements `control`, `blunt_command`, `policy_wording`, `policy_action`, and `buried_action`. The main [README](../README.md) and results table reflect only those 5. Treat the chemical-variant mentions below as historical notes, not a claim about the current code.
+> **Repo note (added later):** the results table below gives "disclosed" counts of 5/5 for `policy_action`, `buried_action`, and `chemical_action` based on a hand read at the time. Once the raw per-run JSON was recovered and added to [`results/`](../results/), re-deriving those counts directly from the code's own `classify()` output showed slightly different numbers (4/5, 3/5, and 2/5 respectively) — see the results table and findings in the main [README](../README.md), which are authoritative. The variant list, the "attack worked" counts, and everything else below checks out against the raw data.
 
 ## Where things stand
 
