@@ -114,7 +114,7 @@ python tests/test_injection_demo_stub.py
 python tests/test_injection_harness_stub.py
 ```
 
-**Note on `results/`:** the raw per-run JSON output from the actual test batches was generated on a local machine and is being migrated into this repo; this folder currently holds a summary only (see `results/README.md`). The results table above is accurate and was read by hand from those files.
+**Note on `results/`:** the raw per-run JSON output from the original test batches was never saved to persistent storage and no longer exists (see `results/README.md` for how to regenerate it). The results table above is accurate and was read by hand from those files before they were lost.
 
 ## Roadmap
 
